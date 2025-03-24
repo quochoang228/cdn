@@ -22,6 +22,14 @@ class $AssetsIconsGen {
   /// File path: assets/icons/calendar 1.svg
   SvgGenImage get calendar1 => const SvgGenImage('assets/icons/calendar 1.svg');
 
+  /// File path: assets/icons/call-calling.svg
+  SvgGenImage get callCalling =>
+      const SvgGenImage('assets/icons/call-calling.svg');
+
+  /// File path: assets/icons/call-circle.svg
+  SvgGenImage get callCircle =>
+      const SvgGenImage('assets/icons/call-circle.svg');
+
   /// File path: assets/icons/clock.svg
   SvgGenImage get clock => const SvgGenImage('assets/icons/clock.svg');
 
@@ -36,14 +44,20 @@ class $AssetsIconsGen {
   SvgGenImage get infoCircle =>
       const SvgGenImage('assets/icons/info-circle.svg');
 
+  /// File path: assets/icons/magicpen.svg
+  SvgGenImage get magicpen => const SvgGenImage('assets/icons/magicpen.svg');
+
   /// List of all assets
   List<SvgGenImage> get values => [
     iconCircle,
     calendar1,
+    callCalling,
+    callCircle,
     clock,
     closeCircle,
     copy,
     infoCircle,
+    magicpen,
   ];
 }
 
