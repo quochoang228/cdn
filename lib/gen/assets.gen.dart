@@ -68,6 +68,12 @@ class $AssetsIconsGen {
   /// File path: assets/icons/medal-star.svg
   SvgGenImage get medalStar => const SvgGenImage('assets/icons/medal-star.svg');
 
+  /// File path: assets/icons/menu1.svg
+  SvgGenImage get menu1 => const SvgGenImage('assets/icons/menu1.svg');
+
+  /// File path: assets/icons/menu2.svg
+  SvgGenImage get menu2 => const SvgGenImage('assets/icons/menu2.svg');
+
   /// File path: assets/icons/personalcard.svg
   SvgGenImage get personalcard =>
       const SvgGenImage('assets/icons/personalcard.svg');
@@ -100,6 +106,8 @@ class $AssetsIconsGen {
     infoCircle,
     magicpen,
     medalStar,
+    menu1,
+    menu2,
     personalcard,
     roadmap1,
     socialInsurance1,
