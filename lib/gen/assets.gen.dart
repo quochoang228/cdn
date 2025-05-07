@@ -22,6 +22,10 @@ class $AssetsIconsGen {
   /// File path: assets/icons/Profile.svg
   SvgGenImage get profile => const SvgGenImage('assets/icons/Profile.svg');
 
+  /// File path: assets/icons/address_contract.svg
+  SvgGenImage get addressContract =>
+      const SvgGenImage('assets/icons/address_contract.svg');
+
   /// File path: assets/icons/briefcase 1.svg
   SvgGenImage get briefcase1 =>
       const SvgGenImage('assets/icons/briefcase 1.svg');
@@ -51,6 +55,10 @@ class $AssetsIconsGen {
   /// File path: assets/icons/connection_02.svg
   SvgGenImage get connection02 =>
       const SvgGenImage('assets/icons/connection_02.svg');
+
+  /// File path: assets/icons/contract_status.svg
+  SvgGenImage get contractStatus =>
+      const SvgGenImage('assets/icons/contract_status.svg');
 
   /// File path: assets/icons/copy.svg
   SvgGenImage get copy => const SvgGenImage('assets/icons/copy.svg');
@@ -89,10 +97,15 @@ class $AssetsIconsGen {
   SvgGenImage get sunbedHolidayVacation =>
       const SvgGenImage('assets/icons/sunbed-holiday-vacation.svg');
 
+  /// File path: assets/icons/time_contract.svg
+  SvgGenImage get timeContract =>
+      const SvgGenImage('assets/icons/time_contract.svg');
+
   /// List of all assets
   List<SvgGenImage> get values => [
     iconCircle,
     profile,
+    addressContract,
     briefcase1,
     calendar1,
     callCalling,
@@ -101,6 +114,7 @@ class $AssetsIconsGen {
     closeCircle,
     connection,
     connection02,
+    contractStatus,
     copy,
     hardHat1,
     infoCircle,
@@ -112,6 +126,7 @@ class $AssetsIconsGen {
     roadmap1,
     socialInsurance1,
     sunbedHolidayVacation,
+    timeContract,
   ];
 }
 
