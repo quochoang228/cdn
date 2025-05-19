@@ -107,6 +107,14 @@ class $AssetsIconsGen {
   SvgGenImage get timeContract =>
       const SvgGenImage('assets/icons/time_contract.svg');
 
+  /// File path: assets/icons/search.svg
+  SvgGenImage get search =>
+      const SvgGenImage('assets/icons/search.svg');
+
+  /// File path: assets/icons/filter.svg
+  SvgGenImage get filter =>
+      const SvgGenImage('assets/icons/filter.svg');
+
   /// List of all assets
   List<SvgGenImage> get values => [
     iconCircle,
@@ -135,6 +143,8 @@ class $AssetsIconsGen {
     sunbedHolidayVacation,
     time,
     timeContract,
+    search,
+    filter,
   ];
 }
 
