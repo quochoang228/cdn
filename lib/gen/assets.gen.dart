@@ -70,6 +70,9 @@ class $AssetsIconsGen {
   SvgGenImage get infoCircle =>
       const SvgGenImage('assets/icons/info-circle.svg');
 
+  /// File path: assets/icons/location.svg
+  SvgGenImage get location => const SvgGenImage('assets/icons/location.svg');
+
   /// File path: assets/icons/magicpen.svg
   SvgGenImage get magicpen => const SvgGenImage('assets/icons/magicpen.svg');
 
@@ -97,6 +100,9 @@ class $AssetsIconsGen {
   SvgGenImage get sunbedHolidayVacation =>
       const SvgGenImage('assets/icons/sunbed-holiday-vacation.svg');
 
+  /// File path: assets/icons/time.svg
+  SvgGenImage get time => const SvgGenImage('assets/icons/time.svg');
+
   /// File path: assets/icons/time_contract.svg
   SvgGenImage get timeContract =>
       const SvgGenImage('assets/icons/time_contract.svg');
@@ -118,6 +124,7 @@ class $AssetsIconsGen {
     copy,
     hardHat1,
     infoCircle,
+    location,
     magicpen,
     medalStar,
     menu1,
@@ -126,6 +133,7 @@ class $AssetsIconsGen {
     roadmap1,
     socialInsurance1,
     sunbedHolidayVacation,
+    time,
     timeContract,
   ];
 }
