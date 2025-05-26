@@ -115,6 +115,30 @@ class $AssetsIconsGen {
   SvgGenImage get filter =>
       const SvgGenImage('assets/icons/filter.svg');
 
+  /// File path: assets/icons/check.svg
+  SvgGenImage get check =>
+      const SvgGenImage('assets/icons/check.svg');
+
+  /// File path: assets/icons/document-upload.svg
+  SvgGenImage get documentUpload =>
+      const SvgGenImage('assets/icons/document-upload.svg');
+
+  /// File path: assets/icons/money.svg
+  SvgGenImage get money =>
+      const SvgGenImage('assets/icons/money.svg');
+
+  /// File path: assets/icons/png-default.svg
+  SvgGenImage get pngDefault =>
+      const SvgGenImage('assets/icons/png-default.svg');
+
+  /// File path: assets/icons/upload-image.svg
+  SvgGenImage get uploadImage =>
+      const SvgGenImage('assets/icons/upload-image.svg');
+
+  /// File path: assets/icons/worker.svg
+  SvgGenImage get worker =>
+      const SvgGenImage('assets/icons/worker.svg');
+
   /// List of all assets
   List<SvgGenImage> get values => [
     iconCircle,
@@ -145,6 +169,12 @@ class $AssetsIconsGen {
     timeContract,
     search,
     filter,
+    check,
+    documentUpload,
+    money,
+    pngDefault,
+    uploadImage,
+    worker,
   ];
 }
 
