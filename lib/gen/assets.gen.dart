@@ -139,6 +139,10 @@ class $AssetsIconsGen {
   SvgGenImage get worker =>
       const SvgGenImage('assets/icons/worker.svg');
 
+  /// File path: assets/icons/icon-trash.svg
+  SvgGenImage get iconTrash =>
+      const SvgGenImage('assets/icons/icon-trash.svg');
+
   /// List of all assets
   List<SvgGenImage> get values => [
     iconCircle,
@@ -175,6 +179,7 @@ class $AssetsIconsGen {
     pngDefault,
     uploadImage,
     worker,
+    iconTrash,
   ];
 }
 
